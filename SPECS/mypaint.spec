@@ -2,7 +2,7 @@
 
 Name:           mypaint
 Version:        1.1.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        A fast and easy graphics application for digital painters
 
 Group:          Applications/Multimedia
@@ -161,6 +161,9 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 %{_libdir}/pkgconfig/libmypaint.pc
 
 %changelog
+* Sat Nov 19 2016 Ricardo Arguello <rarguello@deskosproject.org> - 1.1.0-2
+- Rebuilt for DeskOS
+
 * Tue Aug 13 2013 Christoph Wickert <cwickert@fedoraproject.org> - 1.1.0-1
 - Update to 1.1.0 (#891044)
 - New devel package to develop brushlibs
